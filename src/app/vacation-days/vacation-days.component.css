@@ -1,0 +1,8 @@
+.flex-container {
+    display: flex;
+  }
+  #footerButton {
+    border-color: yellowgreen;
+    border-radius: 3%;
+  }
+  

@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Product Portfolio</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+    aria-controls="navbarCollapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#bikeLeasing"
+          >Bike Leasing</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#insuranceProducts"
+          >Insurance Products</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#vacationDays"
+          >Vacation Days</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="modal" data-target="#voucherProducts"
+          >Voucher Products</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="modal fade" id="bikeLeasing" role="dialog">
+  <app-bike-leasing></app-bike-leasing>
+</div>
+<div class="modal fade" id="insuranceProducts" role="dialog">
+  <app-insurance-products></app-insurance-products>
+</div>
+
+<div class="modal fade" id="vacationDays" role="dialog">
+  <app-vacation-days></app-vacation-days>
+</div>
+<div class="modal fade" id="voucherProducts" role="dialog">
+  <app-voucher-products></app-voucher-products>
+</div>
