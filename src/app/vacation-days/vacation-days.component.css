@@ -1,8 +1,19 @@
 .flex-container {
-    display: flex;
-  }
-  #footerButton {
-    border-color: yellowgreen;
-    border-radius: 3%;
-  }
-  
+  display: flex;
+}
+#footerButton {
+  border-color: yellowgreen;
+  border-radius: 3%;
+}
+.firstText {
+  position: absolute;
+  top: 5px;
+  left: 70px;
+  color: white;
+  border-color: white;
+  border: 2px solid;
+  padding: 1%;
+}
+select {
+  width: 190px;
+}
