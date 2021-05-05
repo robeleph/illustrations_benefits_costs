@@ -1,5 +1,4 @@
 html {
-  margin-bottom: 10%;
   padding-bottom: 15%;
   padding-top: 1%;
   color: white;
@@ -9,9 +8,9 @@ section {
   margin-top: 5%;
 }
 img {
-  padding: 0.25rem;
+  padding: 0.45rem;
   background-color: darkgray;
-  border: 2px solid grey;
+  border: 5px solid grey;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
