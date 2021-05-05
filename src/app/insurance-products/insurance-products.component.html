@@ -10,19 +10,33 @@
     crossorigin="anonymous"
   />
 </head>
+
 <div class="modal-dialog">
-  <div class="modal-content">
+  <div style="border-radius: 2%" class="modal-content">
     <div class="flex justify-items-center">
       <img
+        style="border-radius: 2%"
         src="../../assets/insurance.jpg"
         style="width: 500px; height: 300px"
         alt=""
       />
+      <button
+        type="button"
+        class="close close-button"
+        data-dismiss="modal"
+        aria-label="Close"
+      >
+        <span style="color: black" aria-hidden="true">&times;</span>
+      </button>
+      <h3 style="margin-top: 10%; margin-left: 15%" class="firstText">
+        Insurance <br />
+        Products
+      </h3>
     </div>
-    <h3 style="margin-top: 2%">Bis zu 2 Freistelluagstage</h3>
+    <h3 style="margin-top: 2%">Du erhalst ein Benefitbudget</h3>
 
     <div style="margin-top: 5%" class="flex-container">
-      <div style="margin-left: 10%">
+      <div style="margin-left: 5%">
         <div class="form-check">
           <input
             class="form-check-input"
@@ -32,7 +46,7 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Default checked radio
+            Budget: 300 &euro; Gesundheits-budget
           </label>
         </div>
         <div class="form-check">
@@ -44,7 +58,7 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Default checked radio
+            Budget: 600 &euro; Gesundheits-budget
           </label>
         </div>
         <div class="form-check">
@@ -56,39 +70,55 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Default checked radio
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
-            checked
-          />
-          <label class="form-check-label" for="flexRadioDefault2">
-            Default checked radio
+            Budget: 900 &euro; Gesundheits-budget(empfohlen)
           </label>
         </div>
       </div>
-      <div style="margin-left: 10%">
+
+      <div style="margin-left: 2%">
         <button
-          style="background-color: green; color: white; border-radius: 2px"
+          style="
+            background-color: green;
+            color: white;
+            border-radius: 2px;
+            width: 200px;
+            height: 140px;
+          "
           type="button"
           class="btn btn-success"
         >
-          Product costs Vs benefit
+          Product costs <br />
+          Vs. <br />
+          benefit
         </button>
       </div>
     </div>
 
-    <div style="margin-top: 4%" class="flex-container" id="footerButton">
+    <div
+      style="margin-top: 4%; margin-bottom: 4%"
+      class="flex-container"
+      id="footerButton"
+    >
       <div>
-        <button type="button" class="btn">Zuruch</button>
+        <button
+          style="margin-left: 25px; width: 135px; height: 45px"
+          type="button"
+          class="btn btn-outline-warning"
+        >
+          Zuruch
+        </button>
       </div>
+      <div style="width: 35%"></div>
       <div>
-        <button type="button" class="btn">Auschwitz</button>
+        <div>
+          <button
+            style="width: 135px; height: 45px"
+            type="button"
+            class="btn btn-outline-warning"
+          >
+            Auschwitz
+          </button>
+        </div>
       </div>
     </div>
   </div>

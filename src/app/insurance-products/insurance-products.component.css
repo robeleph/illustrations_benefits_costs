@@ -1,10 +1,27 @@
 .flex-container {
   display: flex;
 }
-#footerButton {
-  border-color: yellowgreen;
-  border-radius: 3%;
-}
 .form-check-label {
-  background-color: orange;
+  width: 230px;
+}
+.firstText {
+  position: absolute;
+  top: 5px;
+  left: 250px;
+  color: white;
+  border-color: white;
+  border: 2px solid;
+  padding: 1%;
+}
+.close-button {
+  position: absolute;
+  top: 1px;
+  left: 94.5%;
+  color: black;
+  border-color: black;
+  border: 2px solid;
+  padding: 1%;
+}
+select {
+  width: 150px;
 }
