@@ -29,3 +29,40 @@
 select {
   width: 150px;
 }
+.list-group-item {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 0;
+  height: 110px;
+  box-shadow: 0px 5px 13px 5px rgba(0, 0, 0, 0.19);
+}
+.list-group-item:hover {
+  background-color: #cce6ff;
+  border: 0;
+  height: 110px;
+  cursor: pointer;
+}
+.btn-toolbar {
+  margin-top: 10px;
+}
+
+img {
+  float: left;
+  margin-right: 15px;
+  height: 128px;
+  width: 128px;
+}
+
+/* ==== SOME BOOTSTRAP MODS/STYLING ==== */
+.btn-default {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.img-rounded,
+.btn,
+.label {
+  border-radius: 6px;
+}
+.btn {
+  padding: 6px 6px;
+  height: 20px;
+}

@@ -36,8 +36,8 @@
     <h3 style="margin-top: 2%">Du erhalst ein Benefitbudget</h3>
 
     <div style="margin-top: 5%" class="flex-container">
-      <div style="margin-left: 5%">
-        <div class="form-check">
+      <div style="margin-left: 1%">
+        <div class="form-check" style="margin-bottom: 5%">
           <input
             class="form-check-input"
             type="radio"
@@ -46,10 +46,11 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 300 &euro; Gesundheits-budget
+            Budget: 300 &euro; <br />
+            Gesundheits-budget
           </label>
         </div>
-        <div class="form-check">
+        <div class="form-check" style="margin-bottom: 5%">
           <input
             class="form-check-input"
             type="radio"
@@ -58,10 +59,10 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 600 &euro; Gesundheits-budget
+            Budget: 600 &euro; <br />Gesundheits-budget
           </label>
         </div>
-        <div class="form-check">
+        <div class="form-check" style="margin-bottom: 5%">
           <input
             class="form-check-input"
             type="radio"
@@ -70,27 +71,76 @@
             checked
           />
           <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 900 &euro; Gesundheits-budget(empfohlen)
+            Budget: 900 &euro; <br />Gesundheits-budget(empfohlen)
           </label>
         </div>
       </div>
 
-      <div style="margin-left: 2%">
-        <button
-          style="
-            background-color: green;
-            color: white;
-            border-radius: 2px;
-            width: 200px;
-            height: 140px;
-          "
-          type="button"
-          class="btn btn-success"
-        >
-          Product costs <br />
-          Vs. <br />
-          benefit
-        </button>
+      <div
+        class="list-group"
+        style="margin-right: 10%; margin-top: -5%; margin-left: -10%"
+      >
+        <h6 class="text-center text-muted">Benefits vs. Cost</h6>
+        <a class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <img
+              src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/don_quixote.jpg"
+              class="img-fluid"
+              alt="quixote"
+            />
+            <h6 class="mb-1" style="margin-right: 25%">
+              InsuranceI
+              <p>
+                <small>
+                  <i
+                    style="margin-right: -5%"
+                    class="fa fa-calendar"
+                    aria-hidden="true"
+                  ></i>
+                  1year
+                </small>
+              </p>
+            </h6>
+            <span class="badge badge-info badge-pill"> 20 &euro;</span>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <img
+              src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/as_I_lay.jpg"
+            />
+            <h6 style="margin-right: 25%" class="mb-1">
+              InsuranceII
+              <p>
+                <small>
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                  6months
+                </small>
+              </p>
+            </h6>
+            <span class="badge badge-info badge-pill"> 780 &euro;</span>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <img
+              src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/things_fall_apart.jpg"
+              class="img-fluid"
+              alt="quixote"
+            />
+            <h6 class="mb-1" style="margin-right: 25%">
+              InsuranceIII
+              <p>
+                <small>
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  2years
+                </small>
+              </p>
+            </h6>
+            <span class="badge badge-info badge-pill"> 250 &euro;</span>
+          </div>
+        </a>
       </div>
     </div>
 

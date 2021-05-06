@@ -27,5 +27,25 @@
   padding: 1%;
 }
 select {
-  width: 190px;
+  width: 160px;
+  margin-right: 10%;
+}
+.image-parent {
+  max-width: 40px;
+}
+.container ul {
+  max-width: 290px;
+}
+.container ul a:hover {
+  background-color: #cce6ff;
+}
+.container ul a {
+  border-radius: 5px;
+  background-color: #e6f2ff;
+}
+#second-item {
+  background-color: white;
+}
+#second-item:hover {
+  background-color: #cce6ff;
 }

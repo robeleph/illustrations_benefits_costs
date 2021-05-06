@@ -25,3 +25,22 @@
 select {
   width: 150px;
 }
+.badge {
+  height: 20px;
+} 
+span {
+  height: 15px;
+  margin-top: 5%;
+  margin-left: -15%;
+}
+.list-group img {
+  width: 40px;
+}
+.list-group a {
+  box-shadow: 0px 11px 23px 5px rgba(0, 0, 0, 0.14);
+  border-radius: 5px;
+  width: 285px;
+}
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
