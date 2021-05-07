@@ -10,7 +10,6 @@
     crossorigin="anonymous"
   />
 </head>
-
 <div class="modal-dialog">
   <div style="border-radius: 2%" class="modal-content">
     <div class="flex justify-items-center">
@@ -29,183 +28,176 @@
         <span style="color: black" aria-hidden="true">&times;</span>
       </button>
       <h3 style="margin-top: 10%; margin-left: 15%" class="firstText">
-        Voucher <br />
-        Products
       </h3>
     </div>
-    <h3 style="margin-top: 2%">Du erhalst ein Benefitbudget</h3>
+    <h3 style="margin-top: 2%">Bis zu 2 Freistelluagstage</h3>
 
     <div style="margin-top: 5%" class="flex-container">
-      <!-- <div style="margin-left: 5%">
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
-            checked
-          />
-          <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 300 &euro; Gesundheits-budget
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
-            checked
-          />
-          <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 600 &euro; Gesundheits-budget
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
-            checked
-          />
-          <label class="form-check-label" for="flexRadioDefault2">
-            Budget: 900 &euro; Gesundheits-budget(empfohlen)
-          </label>
-        </div>
-      </div> -->
+      <div style="margin-left: 5%">
+        <label for="exampleFormControlSelect1">Arbeitstage</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <label for="exampleFormControlSelect1">Freistellungstage</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="list-group" style="margin-left: 5%">
+        <h6 class="text-center text-muted">Benefits vs. Cost</h6>
+        <a class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <span>
+              <img src="../../assets/3.jpg" class="img-fluid" alt="quixote" />
+              <button
+                type="button"
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i style="margin-right: -3px" class="fa fa-fw fa-list"></i>
+                <span class="caret"></span>
+              </button>
+            </span>
+            <div class="flex flex-row">
+              <div>
+                <h6 style="width: 145px" class="mb-1">
+                  Voucher Product I
+                  <p><small></small></p>
+                </h6>
+              </div>
+              <div style="margin-top: -30px; margin-left: 12%">
+                <div class="flex flex-col">
+                  <div>
+                    <a class="btn btn-default" style="width: 145px">
+                      <i
+                        style="margin-right: -2%"
+                        class="fa fa-shopping-cart"
+                        aria-hidden="true"
+                      ></i>
+                      Add to cart</a
+                    >
+                  </div>
 
-      <div style="margin-left: 2%">
-        <div class="container">
-          <h6 class="text-center text-muted">Benefits vs. Cost</h6>
-          <ul class="list-group">
-            <li class="list-group-item clearfix">
-              <img
-                style="width: 50px; height: 50px"
-                class="img-responsive img-rounded"
-                src="../../assets/3.jpg"
-                alt=""
-              />
-              <h6 class="list-group-item-heading">Voucher Product I</h6>
-              <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-default dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <i class="fa fa-fw fa-list"></i> <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Add to new list</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">A list</a></li>
-                    <li><a href="#">Another list</a></li>
-                    <li><a href="#">Third list</a></li>
-                  </ul>
+                  <div class="text-center">
+                    <strong> $1299.99</strong>
+                  </div>
                 </div>
-                <a class="btn btn-default">
-                  <i
-                    style="margin-right: -2%"
-                    class="fa fa-shopping-cart"
-                    aria-hidden="true"
-                  ></i>
-                  Add to cart</a
-                >
-                <a class="btn btn-primary">$142.50</a>
               </div>
-            </li>
-            <li class="list-group-item clearfix">
+            </div>
+          </div>
+        </a>
+
+        <a class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <span>
               <img
-                style="width: 50px; height: 50px"
-                class="img-responsive img-rounded"
                 src="../../assets/voucher.jpg"
-                alt=""
+                class="img-fluid"
+                alt="quixote"
               />
-              <h6 class="list-group-item-heading">Voucher Product II</h6>
-              <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-default dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <i class="fa fa-fw fa-list"></i> <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Add to new list</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">A list</a></li>
-                    <li><a href="#">Another list</a></li>
-                    <li><a href="#">Third list</a></li>
-                  </ul>
-                </div>
-                <a class="btn btn-default">
-                  <i
-                    style="margin-right: -2%"
-                    class="fa fa-shopping-cart"
-                    aria-hidden="true"
-                  ></i>
-                  Add to cart</a
-                >
-                <a class="btn btn-primary">$42.50</a>
+              <button
+                type="button"
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i style="margin-right: -3px" class="fa fa-fw fa-list"></i>
+                <span class="caret"></span>
+              </button>
+            </span>
+            <div class="flex flex-row">
+              <div>
+                <h6 style="width: 145px" class="mb-1">
+                  Voucher Product II
+                  <p><small></small></p>
+                </h6>
               </div>
-            </li>
-            <li class="list-group-item clearfix">
-              <img
-                style="width: 50px; height: 50px"
-                class="img-responsive img-rounded"
-                src="../../assets/3.jpg"
-                alt=""
-              />
-              <h6 class="list-group-item-heading">Voucher Product III</h6>
-              <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-default dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <i class="fa fa-fw fa-list"></i> <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Add to new list</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">A list</a></li>
-                    <li><a href="#">Another list</a></li>
-                    <li><a href="#">Third list</a></li>
-                  </ul>
+              <div style="margin-top: -30px; margin-left: 12%">
+                <div class="flex flex-col">
+                  <div>
+                    <a class="btn btn-default" style="width: 145px">
+                      <i
+                        style="margin-right: -2%"
+                        class="fa fa-shopping-cart"
+                        aria-hidden="true"
+                      ></i>
+                      Add to cart</a
+                    >
+                  </div>
+
+                  <div class="text-center">
+                    <strong> $499.99</strong>
+                  </div>
                 </div>
-                <a class="btn btn-default">
-                  <i
-                    style="margin-right: -2%"
-                    class="fa fa-shopping-cart"
-                    aria-hidden="true"
-                  ></i>
-                  Add to cart</a
-                >
-                <a class="btn btn-primary">$552.50</a>
               </div>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </div>
+        </a>
+        <a class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <span>
+              <img src="../../assets/3.jpg" class="img-fluid" alt="quixote" />
+              <button
+                type="button"
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i style="margin-right: -3px" class="fa fa-fw fa-list"></i>
+                <span class="caret"></span>
+              </button>
+            </span>
+            <div class="flex flex-row">
+              <div>
+                <h6 style="width: 145px" class="mb-1">
+                  Voucher Product III
+                  <p><small></small></p>
+                </h6>
+              </div>
+              <div style="margin-top: -30px; margin-left: 12%">
+                <div class="flex flex-col">
+                  <div>
+                    <a class="btn btn-default" style="width: 145px">
+                      <i
+                        style="margin-right: -2%"
+                        class="fa fa-shopping-cart"
+                        aria-hidden="true"
+                      ></i>
+                      Add to cart</a
+                    >
+                  </div>
+
+                  <div class="text-center">
+                    <strong> $199.99</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 
     <div
-      style="margin-top: 4%; margin-bottom: 2%"
+      style="margin-top: 4%; margin-bottom: 4%"
       class="flex-container"
       id="footerButton"
     >
       <div>
         <button
-          style="margin-left: 15px; width: 125px; height: 45px"
+          style="margin-left: 25px; width: 135px; height: 45px"
           type="button"
           class="btn btn-outline-warning"
         >
