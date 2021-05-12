@@ -1,4 +1,4 @@
-#Illustration for Benefits Vs. Costs
+# Illustration for Benefits Vs. Costs
 
 Clone the repository on the master branch and run `ng serve` for a dev server.
 
